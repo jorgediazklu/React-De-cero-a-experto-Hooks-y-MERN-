@@ -9,7 +9,7 @@ export const CounterApp = ({ value }) => {
       <h2>{counter}</h2>
       <button onClick={() => setCounter((prev) => prev + 1)}>+1</button>
       <button onClick={() => setCounter((prev) => prev - 1)}>-1</button>
-      <button onClick={() => setCounter(value)}>reset</button>
+      <button onClick={() => setCounter(value)}> reset</button>
     </div>
   );
 };
